@@ -1,0 +1,276 @@
+2026-03-16 13:24:40 | INFO     | main:13 | Starting RecommenDISH v0.1.0
+2026-03-16 13:24:42 | INFO     | main:13 | Starting RecommenDISH v0.1.0
+2026-03-16 13:25:04 | INFO     | main:15 | Shutting down RecommenDISH
+2026-03-16 13:25:08 | INFO     | main:13 | Starting RecommenDISH v0.1.0
+2026-03-16 13:27:36 | INFO     | main:15 | Shutting down RecommenDISH
+2026-03-16 13:27:39 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:27:54 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:28:04 | INFO     | main:13 | Starting RecommenDISH v0.1.0
+2026-03-16 13:29:18 | INFO     | main:15 | Shutting down RecommenDISH
+2026-03-16 13:29:21 | INFO     | main:15 | Starting RecommenDISH v0.1.0
+2026-03-16 13:30:36 | INFO     | main:15 | Starting RecommenDISH v0.1.0
+2026-03-16 13:30:36 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:30:36 | INFO     | app.db.init_db:89 | Seeded 12 foods into database
+2026-03-16 13:32:51 | INFO     | main:18 | Shutting down RecommenDISH
+2026-03-16 13:32:53 | INFO     | main:15 | Starting RecommenDISH v0.1.0
+2026-03-16 13:32:53 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:32:53 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 13:32:55 | INFO     | main:15 | Starting RecommenDISH v0.1.0
+2026-03-16 13:32:55 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:32:55 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 13:33:32 | INFO     | main:18 | Shutting down RecommenDISH
+2026-03-16 13:44:28 | INFO     | app.ml.clustering:30 | Building feature matrix for 5 users...
+2026-03-16 13:47:48 | INFO     | app.ml.clustering:30 | Building feature matrix for 5 users...
+2026-03-16 13:47:48 | INFO     | app.ml.clustering:54 | K-Means trained — 5 clusters. Models saved.
+2026-03-16 13:47:48 | INFO     | app.ml.clustering:74 | User 1 → cluster 2
+2026-03-16 13:49:08 | INFO     | app.ml.association_rules:32 | Built 10 transactions from meal logs
+2026-03-16 13:49:08 | INFO     | app.ml.association_rules:72 | Mined 229 association rules. Saved.
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:87 | Generating recommendations for user 1 (Alice)
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:91 | Gaps: protein=107.3g  fiber=25.9g  calories=1373.9kcal
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:96 | Recent foods: ['Spinach', 'Oats', 'Chicken Breast', 'Broccoli', 'Brown Rice', 'Banana']
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:100 | Rule candidates: ['Greek Yogurt', 'Eggs', 'Lentils', 'Almonds', 'Salmon']
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:87 | Generating recommendations for user 1 (Alice)
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:91 | Gaps: protein=107.3g  fiber=25.9g  calories=1373.9kcal
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:96 | Recent foods: ['Spinach', 'Oats', 'Chicken Breast', 'Broccoli', 'Brown Rice', 'Banana']
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:100 | Rule candidates: ['Greek Yogurt', 'Eggs', 'Lentils', 'Almonds', 'Salmon']
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 13:51:35 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:87 | Generating recommendations for user 1 (Alice)
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:91 | Gaps: protein=107.3g  fiber=25.9g  calories=1373.9kcal
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:96 | Recent foods: ['Brown Rice', 'Broccoli', 'Oats', 'Banana', 'Spinach', 'Chicken Breast']
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:100 | Rule candidates: ['Greek Yogurt', 'Eggs', 'Lentils', 'Almonds', 'Salmon']
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 13:53:11 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 13:53:11 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 13:53:11 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6SHZX2AU2chDXLjDKPv'}
+2026-03-16 13:58:04 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:58:04 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:58:04 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 13:58:29 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 13:58:32 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:58:32 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:58:32 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 13:58:34 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:58:34 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:58:34 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 13:58:35 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 13:58:39 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 13:58:39 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 13:58:39 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 14:02:17 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 14:07:55 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 14:07:55 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 14:07:55 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 14:08:39 | INFO     | app.api.meals:27 | User 1 logged Chicken Breast (100.0g)
+2026-03-16 14:09:02 | INFO     | app.api.meals:27 | User 2 logged Chicken Breast (90.0g)
+2026-03-16 14:10:11 | INFO     | app.api.meals:27 | User 2 logged Eggs (30.0g)
+2026-03-16 14:13:54 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 14:16:00 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 14:16:00 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 14:16:00 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 14:16:00 | INFO     | app.ml.clustering:74 | User 1 → cluster 4
+2026-03-16 14:16:00 | INFO     | app.api.users:32 | Created user: API Test User (id=1)
+2026-03-16 14:16:01 | INFO     | app.ml.clustering:74 | User 2 → cluster 4
+2026-03-16 14:16:01 | INFO     | app.api.users:32 | Created user: Test User (id=2)
+2026-03-16 14:16:01 | INFO     | app.api.meals:27 | User 2 logged Test Chicken (150.0g)
+2026-03-16 14:16:01 | INFO     | app.api.recommendations:20 | Recommendation request for user 2
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:16:01 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 14:16:01 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6U2YekDAoWhdzRKsvDe'}
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:16:01 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:16:02 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:16:02 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 14:18:10 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 14:18:10 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 14:18:10 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 14:18:10 | INFO     | app.ml.clustering:74 | User 1 → cluster 4
+2026-03-16 14:18:10 | INFO     | app.api.users:32 | Created user: API Test User (id=1)
+2026-03-16 14:18:10 | INFO     | app.ml.clustering:74 | User 2 → cluster 4
+2026-03-16 14:18:10 | INFO     | app.api.users:32 | Created user: Test User (id=2)
+2026-03-16 14:18:10 | INFO     | app.api.meals:27 | User 2 logged Test Chicken (150.0g)
+2026-03-16 14:18:10 | INFO     | app.api.recommendations:20 | Recommendation request for user 2
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:18:10 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 14:18:10 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6UC4aKkGu5rVvhN7szi'}
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:87 | Generating recommendations for user 2 (Test User)
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:91 | Gaps: protein=79.5g  fiber=30.0g  calories=2346.8kcal
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:96 | Recent foods: ['Test Chicken']
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:100 | Rule candidates: []
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 14:18:10 | INFO     | app.ml.recommender:146 | Top 1 recommendations generated
+2026-03-16 14:18:10 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 14:56:20 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 14:56:20 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 14:56:20 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 14:57:14 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:11:58 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:11:58 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:11:58 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:13:29 | INFO     | app.api.recommendations:20 | Recommendation request for user 5
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:87 | Generating recommendations for user 5 (Eve)
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:91 | Gaps: protein=126.1g  fiber=28.4g  calories=2768.7kcal
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:96 | Recent foods: ['Salmon', 'Almonds', 'Spinach', 'Chicken Breast', 'Greek Yogurt', 'Sweet Potato']
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:100 | Rule candidates: ['Lentils', 'Banana', 'Oats', 'Eggs', 'Broccoli']
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 15:13:29 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 15:13:29 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 15:13:30 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6YQpv8EZaqnA41nDHvM'}
+2026-03-16 15:17:42 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:17:49 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:17:49 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:17:49 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:18:02 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:18:02 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:18:02 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:22:56 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:23:00 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:23:00 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:23:00 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:23:08 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:23:13 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:23:13 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:23:13 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:24:58 | INFO     | app.ml.clustering:74 | User 6 → cluster 4
+2026-03-16 15:24:58 | INFO     | app.api.users:32 | Created user: Harry (id=6)
+2026-03-16 15:25:40 | INFO     | app.api.meals:27 | User 6 logged Greek Yogurt (40.0g)
+2026-03-16 15:26:02 | INFO     | app.api.recommendations:20 | Recommendation request for user 6
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:87 | Generating recommendations for user 6 (Harry)
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:91 | Gaps: protein=101.2g  fiber=30.0g  calories=2350.9kcal
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:96 | Recent foods: ['Greek Yogurt']
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:100 | Rule candidates: ['Spinach', 'Almonds', 'Lentils', 'Banana', 'Salmon']
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: {1, 6, 7, 8, 11, 12}
+2026-03-16 15:26:02 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 15:26:02 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 15:26:03 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6ZNK6ZDm9YHDTTFmH7F'}
+2026-03-16 15:27:59 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:50:34 | INFO     | app.ml.clustering:30 | Building feature matrix for 6 users...
+2026-03-16 15:50:34 | INFO     | app.ml.clustering:54 | K-Means trained — 5 clusters. Models saved.
+2026-03-16 15:50:34 | INFO     | app.ml.association_rules:32 | Built 11 transactions from meal logs
+2026-03-16 15:50:34 | INFO     | app.ml.association_rules:72 | Mined 229 association rules. Saved.
+2026-03-16 15:51:05 | INFO     | app.ml.clustering:30 | Building feature matrix for 6 users...
+2026-03-16 15:51:05 | INFO     | app.ml.clustering:54 | K-Means trained — 5 clusters. Models saved.
+2026-03-16 15:51:05 | INFO     | app.ml.association_rules:32 | Built 16 transactions from meal logs
+2026-03-16 15:51:05 | INFO     | app.ml.association_rules:72 | Mined 15848 association rules. Saved.
+2026-03-16 15:51:36 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:51:36 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:51:36 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 15:52:07 | INFO     | app.api.recommendations:20 | Recommendation request for user 4
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:87 | Generating recommendations for user 4 (Dan)
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:91 | Gaps: protein=165.4g  fiber=26.1g  calories=1467.2kcal
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:96 | Recent foods: ['Chicken Breast', 'Bhindi Masala', 'Eggs', 'Masoor Dal', 'Sweet Potato', 'Oats', 'Upma', 'Broccoli', 'Roti', 'Saag', 'Buttermilk', 'Salmon', 'Egg Curry']
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:100 | Rule candidates: ['Basmati Rice', 'Raita', 'Palak Paneer', 'Dal Tadka', 'Coconut Chutney']
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 15:52:07 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 15:52:07 | INFO     | app.ml.llm:58 | Sending prompt to claude-sonnet-4-20250514...
+2026-03-16 15:52:08 | ERROR    | app.ml.llm:74 | LLM call failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6bMgD1fyMmo6PKoCoBv'}
+2026-03-16 15:53:15 | INFO     | app.api.meals:27 | User 6 logged Basmati Rice (30.0g)
+2026-03-16 15:58:56 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 15:58:59 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 15:58:59 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 15:58:59 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:00:08 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:00:11 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:00:11 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:00:11 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:01:34 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:01:36 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:01:36 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:01:36 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:01:39 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:01:39 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:01:39 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:01:41 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:01:41 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:01:41 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:03:20 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:03:23 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:03:23 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:03:23 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:03:25 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:03:25 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:03:25 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:03:28 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:03:28 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:03:28 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:03:31 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:03:36 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:03:36 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:03:36 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:04:36 | ERROR    | app.api.recommendations:133 | Meal plan generation failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ6cJrkogFYBbedcwVEc6'}
+2026-03-16 16:07:46 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:07:49 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:07:49 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:07:49 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:07:52 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:07:52 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:07:52 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:08:00 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:08:04 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:08:04 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:08:04 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:09:14 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:11:23 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:11:23 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:11:23 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:17:19 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:25:39 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:25:39 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:25:39 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:29:44 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:29:48 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:29:48 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:29:48 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:29:50 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:29:50 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:29:50 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:29:59 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-16 16:30:03 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-16 16:30:03 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-16 16:30:03 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:87 | Generating recommendations for user 6 (Harry)
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:91 | Gaps: protein=104.0g  fiber=29.9g  calories=2339.4kcal
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:96 | Recent foods: ['Basmati Rice', 'Greek Yogurt']
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:100 | Rule candidates: ['Roti', 'Raita', 'Palak Paneer', 'Dal Tadka', 'Coconut Chutney']
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:104 | Cluster peer food IDs: set()
+2026-03-16 16:30:28 | INFO     | app.ml.recommender:146 | Top 5 recommendations generated
+2026-03-16 16:31:15 | INFO     | main:17 | Shutting down RecommenDISH

@@ -10,7 +10,10 @@ st.set_page_config(
     page_title="RecommenDISH",
     page_icon="🍽️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+     menu_items={
+        'About': "RecommenDISH — Smart Food & Nutrition Recommendation System"
+    }
 )
 
 st.markdown("""
@@ -23,12 +26,45 @@ html, body, [class*="css"] {
 .stApp {
     background-color: #f4f6f9;
 }
-[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #1a1a2e 0%, #37607a 100%);
-    border-right: 3px solid #e6820a;
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] > div,
+[data-testid="stSidebar"] > div:first-child,
+[data-testid="stSidebarContent"],
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #1a1a2e 0%, #37607a 100%) !important;
+    border-right: 3px solid #e6820a !important;
 }
-[data-testid="stSidebar"] * {
+
+[data-testid="stSidebar"] *,
+[data-testid="stSidebarContent"] * {
     color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] .stRadio label,
+[data-testid="stSidebar"] .stRadio div {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255,255,255,0.2) !important;
+}
+
+/* Force sidebar always visible */
+[data-testid="stSidebar"] {
+    min-width: 250px !important;
+    max-width: 250px !important;
+    transform: none !important;
+    visibility: visible !important;
+}
+
+[data-testid="stSidebar"][aria-expanded="false"] {
+    min-width: 250px !important;
+    margin-left: 0 !important;
+    transform: none !important;
+}
+
+[data-testid="collapsedControl"] {
+    display: none !important;
 }
 .dish-card {
     background: #ffffff;

@@ -1,0 +1,19 @@
+2026-03-17 12:32:06 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-17 12:32:06 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-17 12:32:06 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-17 13:21:19 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-17 13:21:30 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-17 13:21:30 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-17 13:21:30 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-17 13:21:40 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-17 13:21:40 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-17 13:21:40 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-17 13:24:19 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-17 13:24:26 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-17 13:24:26 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-17 13:24:26 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-17 13:24:37 | INFO     | main:17 | Shutting down RecommenDISH
+2026-03-17 13:24:46 | INFO     | main:14 | Starting RecommenDISH v0.1.0
+2026-03-17 13:24:46 | INFO     | app.db.init_db:8 | Database tables created
+2026-03-17 13:24:46 | INFO     | app.db.init_db:15 | Foods already seeded, skipping
+2026-03-17 13:25:37 | INFO     | main:17 | Shutting down RecommenDISH
